@@ -1,0 +1,13 @@
+{
+  "name": "solwinner",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "node-fetch": "^3.3.2",
+    "cookie-parser": "^1.4.6",
+    "better-sqlite3": "^9.4.0"
+  }
+}
