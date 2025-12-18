@@ -2,6 +2,9 @@ import express from "express";
 import fetch from "node-fetch";
 import cookieParser from "cookie-parser";
 import Database from "better-sqlite3";
+import "dotenv/config";
+
+
 
 const app = express();
 const PORT = process.env.PORT || 3000;
